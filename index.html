@@ -21,6 +21,8 @@
          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
          <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.6/themes.css" rel="stylesheet" type="text/css" />
         </head>
+        <!-- fond cnd-->
+        <script src="https://kit.fontawesome.com/38e4d1e6bb.js" crossorigin="anonymous"></script>
 <body class="sora-font">
     <!-- header section -->
     <header class= "w-full h-[950px] bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
@@ -48,6 +50,8 @@
               </ul>
             </div>
             <div class="navbar-end gap-5 hidden sm:flex">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
               <button class="btn border-[#179800] "> Login </button>
               <button class="btn btn-success text-white"> Register</button>
               
@@ -60,7 +64,7 @@
                     <div><p class="text-center text-[#111111]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!</p></div>
                     
                     <div class=" justify-items-center">
-                        <img class=" h-165 sm:flex" src="./c2-assets/hero-vegetables.png" alt="">
+                        <img class=" h-165 sm:flex " src="./c2-assets/hero-vegetables.png" alt="">
                     </div>
             </div>
     </header>
@@ -71,6 +75,7 @@
             Services
         </h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5 md:gap-15 ">
+            
             <div class="w-[340px] h-[367px] bg-[#EFEBE3] justify-items-center p-8 ">
                 <div class="avatar">
                     <div class="w-30 rounded-full bg-white">
@@ -109,97 +114,285 @@
      </header>
 
     <!-- service section and popular products -->
-     <main>
-         <div class="w-full h-200 bg-[#EFEBE3] mt-40 ">
-            <h1 class="text-[#179800] text-4xl font-bold p-40">Popular Products</h1>
-            <div class="grid grid-flow-col ">
-                <div class="w-[424px] h-[402px]  bg-gradient-to-b from-[#53DB3A] to-[#d6d6d6] ">
-                    <img class="right-10 bottom" src="./c2-assets/vegetable-offer.png" alt="">
-                </div>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/b230bcfa535a3859f76204f0ff84a57f (1).png" alt="">
-                            
-                            
-                        </div>
-                        <div>
+             <header>
+                <div class="w-full   h-[700px] bg-[#EFEBE3] mt-30 ">
 
+                    <div class=" pt-20 pl-30 rounded-lg ">
+                        <h1 class=" text-5xl text-[#179800] "> Popular Products</h1>
+                    </div>
+                    <div class="flex  ">
+                    <div class=" pt-10 pl-45   ">
+                        <div class="w-[420px] h-[400px] bg-gradient-to-b from-[#53DB3A] to-[#FFFFFF] rounded-xl ">
+                          <div class="pl-15 pt-4.5"><h1 class="text-4xl font-bold"> 30% off</h1>
+                            <h1> Discover a world of treats.toys,and <br>
+                           essentials handpicked for</h1>
+                           <button class="btn bg-white">Buy Now </button>
+                          </div>
+                          <img class="pl-35 " src="./c2-assets/vegetable-offer.png" alt="">
+                          
                         </div>
                     </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/293ce6190e6be198e35dee9f2ba0a548 (1).png" alt="">
-                            
-                            
+                    <div class=" pt-10 pl-45">
+                        <div class="grid grid-cols-3 grid-rows-3 gap-9 w-[875px] h-[400px]   ">
+                            <div class="flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class="w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/204f887393101915f23ae42046ac34f2 (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                               <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                              <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 500 g </h1>
+                                <h1> $ 35.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg">
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/293ce6190e6be198e35dee9f2ba0a548 (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 500 g </h1>
+                                <h1> $ 35.99</h1>
+                              </div>  
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/b230bcfa535a3859f76204f0ff84a57f (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 500 g </h1>
+                                <h1> $ 35.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/b230bcfa535a3859f76204f0ff84a57f (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 5 kg </h1>
+                                <h1> $ 235.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/204f887393101915f23ae42046ac34f2 (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 5 kg </h1>
+                                <h1> $ 235.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/293ce6190e6be198e35dee9f2ba0a548 (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 5 kg </h1>
+                                <h1> $ 235.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/293ce6190e6be198e35dee9f2ba0a548 (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 1 kg </h1>
+                                <h1> $ 135.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/b230bcfa535a3859f76204f0ff84a57f (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 500 1kg </h1>
+                                <h1> $ 135.99</h1>
+                              </div>
+                            </div>
+                            <div class=" flex w-[250px] h-[115px] bg-white rounded-lg"> 
+                              <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-4">
+                                <img class="p-3" src="./c2-assets/204f887393101915f23ae42046ac34f2 (1).png" alt="">
+                              </div>
+                              <div class="mt-6 ml-4">
+                                <div class="flex">  <img src="./c2-assets/star (1).png" alt=""></i>
+                                  <h1 class="ml-2">4.5</h1></div> 
+                                <h1> tomato 1 kg </h1>
+                                <h1> $ 135.99</h1>
+                              </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/204f887393101915f23ae42046ac34f2 (1).png" alt="">
-                            
-                            
+                
+                </div>
+                </div>
+             </header>
+
+             <!-- header card-->
+              <header><div class="p-20">
+                <h1 class="text-5xl font-bold text-[#179800]">Arrival & Offers</h1>
+              </div>
+                <div class="flex gap-10  ml-70  ">
+
+                  <div class="flex w-[750px] h-[340px] bg-[#115414] rounded-xl ">
+                    <div>
+                      <div class="mt-15 ml-10">
+                        <img src="./c2-assets/dawat-logo.png" alt="">
+                        <div class="w-[340px] h-[65px] bg-[#63B76D] rounded-2xl " >
+                          <h1 class="text-3xl mt-5  p-4"> Cook Exotic Dishes</h1>
                         </div>
+                        <h1 class="text-4xl font-bold text-white mt-5"> up to 20% OF</h1>
+                      </div>
                     </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/293ce6190e6be198e35dee9f2ba0a548 (1).png" alt="">
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/204f887393101915f23ae42046ac34f2 (1).png" alt="">
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/b230bcfa535a3859f76204f0ff84a57f (1).png" alt="">
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/204f887393101915f23ae42046ac34f2 (1).png" alt="">
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/b230bcfa535a3859f76204f0ff84a57f (1).png" alt="">
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="bg-[#FFFFFF] w-[275px] h-[118px]">
-                        <div class=" w-[70px] h-[70px] bg-[#EFEBE3] mt-6 ml-5 ">
-                            <img class="justify-items-center" src="./c2-assets/293ce6190e6be198e35dee9f2ba0a548 (1).png" alt="">
-                            
-                            
-                        </div>
-                    </div>
-                    
-                    
+                     <div class="mt-7 ml-10">
+                      <img src="./c2-assets/dawat-mock-up.png" alt="">
+                     </div>
                   </div>
-            </div>
-         </div>
-     </main>
+                  <div class=" flex w-[650px] h-[340px] bg-[#102861] rounded-2xl">
+                    <div>
+                    <div class="mt-10 ml-7">
+                      <img src="./c2-assets/india-gate-logo.png" alt="">
+                      <div class=" w-[340px] h-[65px] bg-[#2A4D97] rounded-2xl " >
+                        <h1 class="text-3xl mt-3  p-4 text-white"> World's No.1 Rice</h1>
+                      </div>
+                      <h1 class="text-4xl font-bold text-white mt-3"> up to 40% OF</h1>
+                    </div>
+                  </div>
+                   <div class=" mt-10 ml-10">
+                    <img src="./c2-assets/india-gate-mock-up.png" alt="">
+                   </div>
+                </div>
+               
+            </header>
+              
 
 
      <!-- offers and costomae services -->
       <main>
+        
+          <div>
+          <div class=" mt-30">
+              <h1 class="text-5xl font-bold text-center mb-12"> Customer <span class=" text-orange-600"> Fide Back  </span></h1>
+          </div>
+          <div class="gap-5 grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+              <div class=" w-3/5 mb-20 p-10 grid justify-items-center  bg-green-300 rounded-lg ">
+                  <div class="avatar ">
+                      <div class="w-24 rounded-full ">
+                        <img class="" src="./c2-assets/user-1.png" />
+                      </div>
+                    </div>
+                    <p class="">Reward employees who receive positive feedback.</p>
+                      <div class="rating ">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star" checked="checked" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                        </div>
+            
+                        <h2 class="text-center text-sky-500"> Teacher </h2>
 
+              </div>
+              <div class="w-3/5 mb-20 p-10 grid justify-items-center   bg-green-300 rounded-lg">
+
+                  <div class="avatar ">
+                      <div class="w-24 rounded-full ">
+                        <img class="" src="./c2-assets/user-2.png"/>
+                      </div>
+                    </div>
+                    <p class="">Adjust inventory based on product availability complaints.</p>
+                      <div class="rating ">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star" checked="checked" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                        </div>
+                    
+                        <h2 class="text-center text-sky-500"> Banker</h2>
+
+               </div>
+               <div class="w-3/5 mb-20 p-10 grid justify-items-center   bg-green-300 rounded-lg">
+
+                  <div class="avatar ">
+                      <div class="w-24 rounded-full ">
+                        <img class="" src="./c2-assets/user-3.png"/>
+                      </div>
+                    </div>
+                    <p class=""> All Improve store layout & organization based on customer input.</p>
+                      <div class="rating ">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star" checked="checked" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                        </div>
+
+                        <h2 class="text-center text-sky-500"> Doctor</h2>
+
+               </div>
+              </div>
       </main>
 
       <!--footer and get grocery News -->
-      <footer>
+       <footer class=" flex justify-center ">
+          <div class="flex w-[1024px] h-[450px]  bg-[#EFEBE3] bottom-11 rounded-xl ">
+                 <div class="mt-10">
+                   <img src="./c2-assets/vegetable-busket.png" alt="">
+                 </div>
+                 <div class="mt-35 ml-20">
+                  <h1 class="text-2xl">Get Grocery News!</h1>
+                  <h1>Exclusive training tips, ticks, product deals and more</h1>
+                  <fieldset class="fieldset">
+                    <legend class="fieldset-legend"> Enter Email</legend>
+                    <input type="text" class="input" placeholder="Type here" />
+                
+                  </fieldset>
+                  <button class="btn btn-success mt-5">Subscribe</button>
 
+                 </div>
+          </div>
+       </footer>
+      <footer >
+        <div class="absolute w-full h-[658px] bg-gradient-to-b   from-[#ebfff7] to-[#0cdb7a]">
+          <div class=" flex gap-100 p-60">
+            <div>
+                <img src="./c2-assets/logo-footer.png" alt="">
+                <h1 class="text-xl mt-5">Discover a world of treats,<br> 
+                  toys, and essentials handpicked <br>
+                   for  your furry friends</h1>
+            </div>
+            <div class="text-xl    ">
+              <h1> Product </h1>
+              <h1 class="mt-8"> Services </h1>
+              <h1 class="mt-8"> Contact us </h1>
+            </div>
+            <div>
+              <h1 class="text-xl">
+                Follow Us 
+                <div class="flex">
+                 <img src="./c2-assets/facebook.png" alt="">
+                 <img src="./c2-assets/twitter.png" alt="">
+                 <img src="./c2-assets/insta.png" alt="">
+                </div>
+              </h1>
+            </div>
+              
+          </div>
+        </div>
       </footer>
 
 
